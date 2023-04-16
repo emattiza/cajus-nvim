@@ -1,6 +1,6 @@
 (module config.plugin.theme
-  {autoload {theme github-theme}})
+  {autoload {theme nightfox}})
 
-(theme.setup {:options {:styles {:comments "italic"}}})
+(theme.setup {:options {:transparent true}})
 
-(vim.cmd "colorscheme github_dark")
+(vim.cmd "colorscheme carbonfox")

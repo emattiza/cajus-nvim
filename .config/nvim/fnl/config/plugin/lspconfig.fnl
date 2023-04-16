@@ -58,8 +58,3 @@
 
   ;; To add support to more language servers check:
   ;; https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-
-  ;; Clojure
-  (lsp.clojure_lsp.setup {:on_attach on_attach
-                          :handlers handlers
-                          :capabilities capabilities}))

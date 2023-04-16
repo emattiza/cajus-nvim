@@ -33,17 +33,23 @@
   :Olical/aniseed {:branch :develop}
 
   ;; theme
-  :projekt0n/github-nvim-theme {:mod :theme}
-  :kyazdani42/nvim-web-devicons {}
+  :nvim-tree/nvim-web-devicons {}
+  :EdenEast/nightfox.nvim {:mod :theme}
 
   ;; status line
   :nvim-lualine/lualine.nvim {:mod :lualine}
+  ;; key highlighting
+  :folke/which-key.nvim {:mod :which-key}
 
   ;; file searching
   :nvim-telescope/telescope.nvim {:requires [:nvim-telescope/telescope-ui-select.nvim
                                              :nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
                                   :mod :telescope}
+
+  ;; tree viewer
+  :nvim-tree/nvim-tree.lua {:mod :nvim-tree-lua 
+                            :requires [:nvim-tree/nvim-web-devicons]}
 
   ;; repl tools
   :Olical/conjure {:branch :master :mod :conjure}
