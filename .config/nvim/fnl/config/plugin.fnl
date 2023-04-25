@@ -48,8 +48,7 @@
                                   :mod :telescope}
 
   ;; tree viewer
-  :nvim-tree/nvim-tree.lua {:mod :nvim-tree-lua 
-                            :requires [:nvim-tree/nvim-web-devicons]}
+  :nvim-tree/nvim-tree.lua { :requires [:nvim-tree/nvim-web-devicons]}
 
   ;; repl tools
   :Olical/conjure {:branch :master :mod :conjure}
