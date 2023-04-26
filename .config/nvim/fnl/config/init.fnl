@@ -10,8 +10,8 @@
 (set nvim.g.maplocalleader ",")
 
 ;don't wrap lines
-(nvim.ex.set :nowrap)
-
+(set nvim.wo.number 1)
+(set nvim.wo.relativenumber 1)
 ;sets a nvim global options
 (let [options
       {;settings needed for compe autocompletion
