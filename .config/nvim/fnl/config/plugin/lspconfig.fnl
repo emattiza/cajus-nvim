@@ -60,6 +60,13 @@
   ;; https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
   ;; Clojure
-  (lsp.clojure_lsp.setup {:on_attach on_attach
-                          :handlers handlers
-                          :capabilities capabilities}))
+  (lsp.pyright.setup 
+    {:on_attach on_attach
+     :handlers handlers
+     :capabilities capabilities
+    })
+  (lsp.clojure_lsp.setup 
+    {:on_attach on_attach
+     :handlers handlers
+     :capabilities capabilities
+    }))
