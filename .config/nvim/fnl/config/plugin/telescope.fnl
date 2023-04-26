@@ -3,19 +3,22 @@
                    telescope telescope
                    themes telescope.themes}})
 
-(telescope.setup {:defaults {:file_ignore_patterns [:node_modules]
-                             :vimgrep_arguments [:rg
-                                                 :--color=never
-                                                 :--no-heading
-                                                 :--with-filename
-                                                 :--line-number
-                                                 :--column
-                                                 :--smart-case
-                                                 :--iglob
-                                                 :!.git
-                                                 :--hidden]}
-                  :extensions {:ui-select {1 (themes.get_dropdown {})}}
-                  :pickers {:find_files {:find_command [:fd :-I :-t :f]}}})
+(telescope.setup 
+  {:defaults 
+   {:file_ignore_patterns [:node_modules]
+    :vimgrep_arguments [ :rg
+                         :--color=never
+                         :--no-heading
+                         :--with-filename
+                         :--line-number
+                         :--column
+                         :--smart-case
+                         :--iglob
+                         :!.git
+                         :--hidden
+                       ]}
+  :extensions {:ui-select {1 (themes.get_dropdown {})}}
+  :pickers {:find_files {:find_command [:fd :-IH :-t :f]}}})
 
 (telescope.load_extension :ui-select)
 
