@@ -59,8 +59,14 @@
   ;; tree viewer
   :nvim-tree/nvim-tree.lua { :requires [:nvim-tree/nvim-web-devicons]}
 
+  ;;undo tree
+  :mbbill/undotree {:mod :undotree}
+
   ;; repl tools
   :Olical/conjure {:branch :master :mod :conjure}
+
+  ;; git
+  :tpope/vim-fugitive {:mod :fugitive}
 
   ;; sexp
   :guns/vim-sexp {:mod :sexp}
