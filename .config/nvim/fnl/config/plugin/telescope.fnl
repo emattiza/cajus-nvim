@@ -18,7 +18,7 @@
                          :--hidden
                        ]}
   :extensions {:ui-select {1 (themes.get_dropdown {})}}
-  :pickers {:find_files {:find_command [:fd :-IH :-t :f]}}})
+  :pickers {:find_files {:find_command [:fd :-IH :-t :f :-E :.git]}}})
 
 (telescope.load_extension :ui-select)
 

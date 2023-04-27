@@ -38,14 +38,22 @@
 
   ;; status line
   :nvim-lualine/lualine.nvim {:mod :lualine}
+
+  ;; buffer line
+  :akinsho/bufferline.nvim 
+    {:tag :*
+    :requires [:nvim-tree/nvim-web-devicons]}
+
   ;; key highlighting
   :folke/which-key.nvim {:mod :which-key}
 
   ;; file searching
-  :nvim-telescope/telescope.nvim {:requires [:nvim-telescope/telescope-ui-select.nvim
-                                             :nvim-lua/popup.nvim
-                                             :nvim-lua/plenary.nvim]
-                                  :mod :telescope}
+  :nvim-telescope/telescope.nvim 
+  {:requires 
+   [:nvim-telescope/telescope-ui-select.nvim
+    :nvim-lua/popup.nvim
+    :nvim-lua/plenary.nvim]
+   :mod :telescope}
 
   ;; tree viewer
   :nvim-tree/nvim-tree.lua { :requires [:nvim-tree/nvim-web-devicons]}
