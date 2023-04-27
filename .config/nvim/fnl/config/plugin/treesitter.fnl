@@ -17,5 +17,6 @@
                      :lua
                      :markdown
                      :python
+                     :rust
                      :yaml
                      ]})
