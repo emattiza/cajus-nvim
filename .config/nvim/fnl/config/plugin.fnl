@@ -74,6 +74,7 @@
 
   ;; lsp
   :neovim/nvim-lspconfig {:mod :lspconfig}
+  :simrat39/rust-tools.nvim {:mod :rust-tools}
 
   ; snippets
   :L3MON4D3/LuaSnip {:requires [:saadparwaiz1/cmp_luasnip]}
