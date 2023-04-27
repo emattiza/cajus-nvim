@@ -42,7 +42,8 @@
   ;; buffer line
   :akinsho/bufferline.nvim 
     {:tag :*
-    :requires [:nvim-tree/nvim-web-devicons]}
+    :requires [:nvim-tree/nvim-web-devicons]
+    :mod :bufferline}
 
   ;; key highlighting
   :folke/which-key.nvim {:mod :which-key}
