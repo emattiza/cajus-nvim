@@ -65,6 +65,10 @@
      :handlers handlers
      :capabilities capabilities
     })
+  (lsp.rust_analyzer.setup
+    {:on_attach on_attach
+     :handlers handlers
+     :capabilities capabilities})
   (lsp.clojure_lsp.setup 
     {:on_attach on_attach
      :handlers handlers
