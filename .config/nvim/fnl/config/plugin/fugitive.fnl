@@ -16,6 +16,7 @@
 
 (lnnoremap :gs "Git")
 (lnnoremap :gb "Git blame")
+(lnnoremap :ga "Git add %")
 (lnnoremap :gd "Gdiff")
 (lnnoremap :gp "Git push")
 (lnnoremap :gl "Git pull")

@@ -67,6 +67,7 @@
 
   ;; git
   :tpope/vim-fugitive {:mod :fugitive}
+  :lewis6991/gitsigns.nvim {:mod :gitsigns}
 
   ;; sexp
   :guns/vim-sexp {:mod :sexp}
