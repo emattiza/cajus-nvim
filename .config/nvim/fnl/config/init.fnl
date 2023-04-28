@@ -9,6 +9,9 @@
 (set nvim.g.mapleader " ")
 (set nvim.g.maplocalleader ",")
 
+(vim.api.nvim_set_option "splitright" true)
+(vim.api.nvim_set_option "splitbelow" true)
+
 ;don't wrap lines
 (set nvim.wo.number 1)
 (set nvim.wo.relativenumber 1)
