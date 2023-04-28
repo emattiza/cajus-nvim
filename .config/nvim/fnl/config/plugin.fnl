@@ -91,4 +91,7 @@
                                 :hrsh7th/cmp-nvim-lsp
                                 :hrsh7th/cmp-vsnip
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp})
+                     :mod :cmp}
+  ;; colors
+  :brenoprata10/nvim-highlight-colors {:mod :colors}
+  )
