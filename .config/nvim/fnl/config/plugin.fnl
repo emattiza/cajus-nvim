@@ -32,6 +32,10 @@
   ;; nvim config and plugins in Fennel
   :Olical/aniseed {:branch :develop}
 
+  ;; pairs and tagging
+  :windwp/nvim-autopairs {}
+  :windwp/nvim-ts-autotag {}
+
   ;; theme
   :nvim-tree/nvim-web-devicons {}
   :EdenEast/nightfox.nvim {:mod :theme}
@@ -94,4 +98,9 @@
                      :mod :cmp}
   ;; colors
   :brenoprata10/nvim-highlight-colors {:mod :colors}
+
+  ;; language support
+  :purescript-contrib/purescript-vim {}
+  :vmchale/dhall-vim {}
+  :hashivim/vim-terraform {}
   )
